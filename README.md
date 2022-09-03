@@ -18,13 +18,10 @@ Regardless, another goal is to make this a dedicated Workstation for my programm
 
 These are the steps I can see as of right now:
 
-0. Backup & Wipe G5 [ ]
-1. Install ubuntu server [ ]
-2. Configure new server [ ]; priorities:
-- SSH
-- k8s & docker
-3. Buy new case (Phanteks Eclipse P300A) [ ]
-4. Buy x3 SSDs (Samsung 980 Plus 2TB NVME, Cache: 2048MB) [ ]
-- Configure in RAID10 [ ]
-5. Buy new PSU [ ]
-6. Buy new Mobo, RAM, CPU & Cooler [ ]
+- [ ] Backup & Wipe G5
+- [ ] Install ubuntu server
+- [ ] Configure new server; primarily for SSH, k8s & docker
+- [ ] Buy new case (Phanteks Eclipse P300A)
+- [ ] Buy x3 SSDs (Samsung 980 Plus 2TB NVME, Cache: 2048MB); configure in RAID10
+- [ ] Buy new PSU
+- [ ] Buy new Mobo, RAM, CPU & Cooler
