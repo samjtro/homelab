@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sudo bash -c "chmod +x dot/scripts/push; chmod +x dot/scripts/clone"
+cp -r dot/scripts/.vim dot/scripts/.bashrc dot/scripts/.tmux.conf dot/scripts/.vimrc dot/scripts ~/
+
+read -p "Is this an Ubuntu server? [y/N]" TYPE
+
+if [[ ${TYPE} = "y"]]; then
+        ./config/ubuntu-server-setup
+fi

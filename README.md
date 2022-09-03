@@ -14,7 +14,9 @@ The parts for my G5 are as follows:
 
 Thus, the goal is to turn my G5 into a fully headless, designated home server that I can access from my laptops & a controller. I want to keep the machine under $2,000; ideally. It will probably go over that, and that's fine. I could just go out and build a brand new server, but I'm new to having an on-premise dedicated home lab so I want to use old hardware as a base. Not to mention, I am still kind of going nuts on parts; if I want to upgrade, I can very easily do so within the parameters of this system.
 
-Regardless, another goal is to make this a dedicated Workstation for my programming tasks. As a result, I want >32GB RAM & >8 Cores. My current plans are for double that; a Threadripper 1950x gives me 16 Cores @ 32 Threads & I am going to get 64GB of RAM, and then very quickly double to 128GB.
+Regardless, another goal is to make this a dedicated Workstation for my programming tasks. As a result, I want >32GB RAM & >8 Cores. My current plans are for double that; a Threadripper 1950x gives me 16 Cores @ 32 Threads & I am going to get 64GB of RAM, and then very quickly double to 128GB. This will allow me to do basically everything I need & have overhead for more.
+
+I am also planning on keeping my GTX 1660 Ti; it will not go on my server though. I will use it as an external GPU for the Mac Mini; in case I want to run any ML tasks, or play any games.
 
 These are the steps I can see as of right now:
 
@@ -22,6 +24,11 @@ These are the steps I can see as of right now:
 - [ ] Install ubuntu server
 - [ ] Configure new server; primarily for SSH, k8s & docker
 - [ ] Buy new case (Phanteks Eclipse P300A)
-- [ ] Buy x3 SSDs (Samsung 980 Plus 2TB NVME, Cache: 2048MB); configure in RAID10
+- [ ] Buy x2 SSDs (Samsung 980 Plus 2TB NVME, Cache: 2048MB); configure in RAID10
 - [ ] Buy new PSU
 - [ ] Buy new Mobo, RAM, CPU & Cooler
+- [ ] Buy controller; 2014 i7 Mac Mini
+
+As you can probably see, my controller will be a Mac Mini! I haven't used Mac on the desktop for a while (in H.S., ran a Hackintosh at home & used them in other various aspects of education); these came to my attention as efficient server controllers via [rwxrob](https://github.com/rwxrob). They are much more powerful than Raspberry Pis, and the x86 architecture makes it easy for compatibility purposes. They are also fairly cheap; obviously not what a Raspberry Pi would cost me, but <$300 for an i7 with 16gb of RAM is good enough.
+
+I haven't really seen exactly what I plan on doing elsewhere, but it's kind of an amalgamation of everything I've seen prior. The idea is to connect the Mini to my pre-existing Desktop setup, run the server elsewhere & ssh into the server. I can then leverage the enormous compute of the server on the Mac Mini. Will more than likely flash Linux onto the Mini, but I'm not positive yet. Will upgrade MacOS and see how it's feeling; if it is too slow, then I'll flash Linux. Else; I'll get to use Mac on the Desktop again!

@@ -1,4 +1,0 @@
-#!/bin/bash
-
-sudo bash -c "chmod +x scripts/push && chmod +x scripts/clone"
-cp -r dot/.vim dot/.bashrc dot/.tmux.conf dot/.vimrc scripts ~/
