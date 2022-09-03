@@ -28,4 +28,3 @@ These are the steps I can see as of right now:
 - Configure in RAID10
 5. Buy new PSU
 6. Buy new Mobo, RAM, CPU & Cooler
-
