@@ -2,5 +2,5 @@
 read uI
 
 git add .
-git commit -m "${uI}"
+git commit
 git push
