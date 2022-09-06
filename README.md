@@ -1,5 +1,9 @@
 # homelab
 
+to see what I am going to be doing on this server, check out [home-k8s](https://github.com/samjtro/home-k8s)
+
+## goals
+
 total est. cost: $2061.62-$2161.62
   - $1811.62 [server](https://pcpartpicker.com/user/makingcomputersformyself/saved/xGyDZL)
   - $250-350 [controller](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1313&_nkw=2014+mac+mini+i7+16gb+256gb&_sacat=0&LH_TitleDesc=0&_odkw=2014+mac+mini+i7+16gb+ram+256gb+ssd&_osacat=0&LH_PrefLoc=2)
